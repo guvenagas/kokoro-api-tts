@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large files / model files
+*.onnx
+*.bin
+*.npy
+*.wav
+
+# Whisper and segmented audio
+whisper/
+segments/
+metadata.csv
+
+# System & editor junk
+.DS_Store
+Thumbs.db
+*.lock
