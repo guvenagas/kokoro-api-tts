@@ -2,7 +2,7 @@
 
 This is a local-ready Text-to-Speech API built using **[Kokoro ONNX](https://huggingface.co/spaces/Kokoro-ai/Kokoro)** and served with **FastAPI**.  
 It allows real-time voice synthesis with multiple voices, and supports generating your own custom voice embeddings from training data.
-
+ 
 ---
 
 ## 🚀 Features
@@ -28,6 +28,9 @@ venv\Scripts\activate   # On Windows
 # Install requirements
 pip install -r requirements.txt
 
+# Download Kokoro ONNX model and voice pack
+wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/kokoro-v1.0.onnx
+wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/voices-v1.0.bin
 
 ** Running the API**
  
